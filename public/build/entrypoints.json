@@ -1,0 +1,9 @@
+{
+  "entrypoints": {
+    "css/home": {
+      "css": [
+        "/public/build/css/home.css"
+      ]
+    }
+  }
+}

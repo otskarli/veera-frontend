@@ -1,0 +1,26 @@
+// font
+$font-family-base: 'Roboto', Arial, Helvetica, sans-serif !default;
+
+//default font sizes
+$font-size-base: 1rem !default;
+$h1-font-size: 2rem !default;
+$h2-font-size: 1.75 !default;
+$h3-font-size: 1.5 !default;
+$h4-font-size: 1.25 !default;
+$h5-font-size: 1.125 !default;
+$h6-font-size: $font-size-base !default;
+
+// grid settings
+$grid-gutter-width: 16px !default;
+
+// grid breakpoints
+$grid-breakpoints: (
+        xs: 0,
+        sm: 599px,
+        md: 899px,
+        lg: 1199px,
+        xl: 1200px
+) !default;
+
+// border radius
+$border-radius-base: 4px !default;

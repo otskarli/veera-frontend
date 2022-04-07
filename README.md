@@ -1,3 +1,18 @@
+# In development, it will take around a month for something useful to appear here!
+
+## Fully finished component list will be updated, when it needs to be updated.
+
+### Fully ready components
+
+-
+
+### Components in development
+
+- Header
+- Horizontal menu
+- Vertical left menu
+- Footer
+
 # since the current front-end is out-of-date for like 2 years, we need new, now!
 
 ### https://koodivaramu.eesti.ee/veebiraamistik

@@ -4,7 +4,7 @@
 
 ### Fully ready components
 
--
+- Buttons (primary, secondary)
 
 ### Components in development
 

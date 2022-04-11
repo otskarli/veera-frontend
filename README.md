@@ -4,7 +4,8 @@
 
 ### Fully ready components
 
-- Buttons (primary, secondary)
+- Buttons (primary, secondary, danger, success, disabled)
+- Small Buttons (primary, secondary, danger, success, disabled)
 
 ### Components in development
 

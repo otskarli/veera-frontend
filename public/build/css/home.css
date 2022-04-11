@@ -10221,6 +10221,24 @@ p {
   box-sizing: border-box;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+.btn.btn-icon {
+  padding: 6px 24px;
+}
+.btn.btn-icon .material-icons {
+  float: right;
+  margin-left: 10px;
+}
+.btn.btn-sm, .btn-group-sm > .btn {
+  padding: 3px 25px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  max-height: 25px;
+}
+.btn.btn-sm .material-icons, .btn-group-sm > .btn .material-icons {
+  margin-left: 5px;
+  font-size: 15px;
+}
 .btn.btn-primary:not([disabled]) {
   background-color: #1769AB;
 }
@@ -10259,10 +10277,49 @@ p {
   border-color: #D2D3D8;
   box-shadow: none;
 }
-.btn.btn-icon {
-  padding: 6px 24px;
+.btn.btn-danger:not([disabled]) {
+  border: 2px solid #D73E3E;
+  color: #FDFDFD;
+  background-color: #D73E3E;
 }
-.btn.btn-icon .material-icons {
-  float: right;
-  margin-left: 10px;
+.btn.btn-danger:not([disabled]):hover, .btn.btn-danger:not([disabled]):active, .btn.btn-danger:not([disabled]):focus {
+  border: 2px solid #B03333;
+  background-color: #B03333;
+  box-shadow: none;
+}
+.btn.btn-danger:not([disabled]):focus {
+  border: 2px solid #B03333;
+  background-color: #D73E3E;
+}
+.btn.btn-danger[disabled] {
+  border: 2px solid #D2D3D8;
+  background-color: #D2D3D8;
+  color: #FDFDFD;
+}
+.btn.btn-danger[disabled]:hover, .btn.btn-danger[disabled]:active, .btn.btn-danger[disabled]:focus {
+  border-color: #D2D3D8;
+  box-shadow: none;
+}
+.btn.btn-success:not([disabled]) {
+  border: 2px solid #308653;
+  color: #FDFDFD;
+  background-color: #308653;
+}
+.btn.btn-success:not([disabled]):hover, .btn.btn-success:not([disabled]):active, .btn.btn-success:not([disabled]):focus {
+  border: 2px solid #286E44;
+  background-color: #286E44;
+  box-shadow: none;
+}
+.btn.btn-success:not([disabled]):focus {
+  border: 2px solid #286E44;
+  background-color: #308653;
+}
+.btn.btn-success[disabled] {
+  border: 2px solid #D2D3D8;
+  background-color: #D2D3D8;
+  color: #FDFDFD;
+}
+.btn.btn-success[disabled]:hover, .btn.btn-success[disabled]:active, .btn.btn-success[disabled]:focus {
+  border-color: #D2D3D8;
+  box-shadow: none;
 }
